@@ -1,10 +1,12 @@
-// 1) افتح Firebase Console > Project settings > General > Your apps (Web)
-// 2) انسخ firebaseConfig وحطّه هنا بدل القيم
-window.FIREBASE_CONFIG = {
-  apiKey: "PASTE_HERE",
-  authDomain: "PASTE_HERE",
-  projectId: "PASTE_HERE",
-  storageBucket: "PASTE_HERE",
-  messagingSenderId: "PASTE_HERE",
-  appId: "PASTE_HERE"
+// Firebase config
+const firebaseConfig = {
+  apiKey: "AIzaSyAA3zR65Nrg8j30cfnwSiXtlnK9EDnVrMU",
+  authDomain: "suhaib-store.firebaseapp.com",
+  projectId: "suhaib-store",
+  storageBucket: "suhaib-store.appspot.com",
+  messagingSenderId: "542784645590",
+  appId: "1:542784645590:web:466356d733696549b51c77"
 };
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
